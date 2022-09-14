@@ -758,6 +758,8 @@ body {
 .prose :where(img):not(:where([class~="not-prose"] *)) {
   margin-top: 2em;
   margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 3px;
 }
 

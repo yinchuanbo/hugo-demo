@@ -8,15 +8,16 @@ DefaultContentLanguage = "zh"
 enableInlineShortcodes = true
 ignoreErrors = ["error-remote-getjson"]
 theme = "paper"
+features = ["blog"]
 
 [params]
-  color = 'white'
+  color = 'light'
   twitter = 'yinchuanbo'
   github = 'yinchuanbo'
   instagram = 'yinchuanbo'
   rss = true
   avatar = 'https://yinchuanbo.github.io/imgs/avator.jpg'
-  name = '灏 Yin'
+  name = 'Yin灏'
   bio = '学而不知道，与不学同；知而不能行，与不知同。'
   disableHLJS = true
   monoDarkIcon = true
@@ -29,28 +30,27 @@ theme = "paper"
   tag = "tags"
   series = "series"
 [privacy]
-
   [privacy.vimeo]
     disabled = false
     simple = true
-
   [privacy.twitter]
     disabled = false
     enableDNT = true
     simple = true
-
   [privacy.instagram]
     disabled = false
     simple = true
-
   [privacy.youtube]
     disabled = false
     privacyEnhanced = true
-
 [services]
-
   [services.instagram]
     disableInlineCSS = true
-
   [services.twitter]
     disableInlineCSS = true
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 10
