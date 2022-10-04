@@ -11,11 +11,7 @@ theme = "paper"
 features = ["blog"]
 
 [params]
-  color = 'light'
-  twitter = 'yinchuanbo'
-  github = 'yinchuanbo'
-  instagram = 'yinchuanbo'
-  rss = true
+  color = 'linen'
   avatar = 'https://yinchuanbo.github.io/imgs/avator.jpg'
   name = 'Yin灏'
   bio = '学而不知道，与不学同；知而不能行，与不知同。'
@@ -48,9 +44,3 @@ features = ["blog"]
     disableInlineCSS = true
   [services.twitter]
     disableInlineCSS = true
-[menu]
-  [[menu.main]]
-    identifier = "about"
-    name = "关于"
-    url = "/about/"
-    weight = 10

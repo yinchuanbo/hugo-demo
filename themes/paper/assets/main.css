@@ -703,7 +703,8 @@ body {
 .prose :where(h1):not(:where([class~="not-prose"] *)) {
   color: var(--tw-prose-headings);
   font-weight: 800;
-  font-size: 2.25em;
+  /* font-size: 2.25em; */
+  font-size: 1.8em;
   margin-top: 0;
   margin-bottom: 0.8888889em;
   line-height: 1.1111111;
@@ -1356,6 +1357,10 @@ body {
 
 .mb-20 {
   margin-bottom: 5rem;
+}
+
+.mb-10 {
+  margin-bottom: 2rem;
 }
 
 .mr-5 {
