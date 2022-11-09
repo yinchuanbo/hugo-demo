@@ -2,7 +2,7 @@ baseURL = "/"
 title = "灏天阁"
 author = "hao"
 copyright = "Copyright © 2008–2019, Steve Francia and the lee.so; all rights reserved."
-paginate = 3
+paginate = 6
 languageCode = "zh"
 DefaultContentLanguage = "zh"
 enableInlineShortcodes = true
@@ -11,7 +11,7 @@ theme = "paper"
 features = ["blog"]
 
 [params]
-  color = 'linen'
+  color = 'light'
   avatar = 'https://yinchuanbo.github.io/imgs/avator.jpg'
   name = 'Yin灏'
   bio = '学而不知道，与不学同；知而不能行，与不知同。'
