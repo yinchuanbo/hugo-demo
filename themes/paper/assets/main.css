@@ -1,5 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
 
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+  /* background-color: #f5f5f5; */
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track {
+  /* -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); */
+}
+
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  background-color: #0ae;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%,
+      color-stop(.5, rgba(255, 255, 255, .2)),
+      color-stop(.5, transparent), to(transparent));
+}
+
 /*
  * Paper
  * A simple, clean, flexible Hugo theme
@@ -66,23 +87,7 @@ body {
   /* 1 */
   line-height: inherit;
   /* 2 */
-}
-::-webkit-scrollbar {
-  /*滚动条整体样式*/
-  width : 10px; /*高宽分别对应横竖滚动条的尺寸*/
-  height: 10px;
-}
-::-webkit-scrollbar-thumb {
-  /*滚动条里面小方块*/
-  border-radius: 10px;
-  box-shadow : inset 0 0 5px rgba(0, 0, 0, 0.1);
-  background : rgba(41, 45, 62, 0.5);
-}
-::-webkit-scrollbar-track {
-  /*滚动条里面轨道*/
-  box-shadow : inset 0 0 5px rgba(0, 0, 0, 0.1);
-  border-radius: 0;
-  background : #ededed;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAKElEQVQIW2NkQAP37t37z4gsBhJQUlJihAvCBECKwILIAmBBdAGQIADyYhOflOa3AAAAAABJRU5ErkJggg==) !important;
 }
 
 /*
@@ -742,7 +747,8 @@ body {
   color: var(--tw-prose-headings);
   font-weight: 700;
   font-size: 1.5em;
-  margin-top: 2em;
+  /* margin-top: 2em; */
+  margin-top: 1em;
   margin-bottom: 1em;
   line-height: 1.3333333;
 }
@@ -849,7 +855,7 @@ body {
 .prose :where(pre):not(:where([class~="not-prose"] *)) {
   color: var(--tw-prose-pre-code);
   /* background-color: var(--tw-prose-pre-bg); */
-  background-color: rgb(41, 45, 62)!important;
+  background-color: #081b4b !important;
   overflow-x: auto;
   font-weight: 400;
   font-size: 0.875em;
@@ -860,10 +866,15 @@ body {
   /* padding-right: 1.1428571em; */
   padding-bottom: 0.8571429em;
   /* padding-left: 1.1428571em; */
-  padding-left: 2em;
-  padding-right: 2em;
-  /* border-radius: 0; */
-  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  padding-left: 1em;
+  padding-right: 1em;
+  border-radius: 16px;
+}
+
+@media (max-width: 768px) {
+  .prose :where(pre):not(:where([class~="not-prose"] *)) {
+    border-radius: 0;
+  }
 }
 
 .prose :where(pre code):not(:where([class~="not-prose"] *)) {
@@ -934,7 +945,7 @@ body {
 
 .prose {
   --tw-prose-body: #374151;
-  --tw-prose-headings: #292d3e;
+  --tw-prose-headings: #000000;
   --tw-prose-lead: #4b5563;
   --tw-prose-links: #111827;
   --tw-prose-bold: #111827;
@@ -1635,8 +1646,7 @@ body {
 }
 
 .pt-20 {
-  /* padding-top: 5rem; */
-  padding-top: 2rem;
+  padding-top: 5rem;
 }
 
 .pb-32 {
@@ -1795,7 +1805,7 @@ article {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
   word-wrap: break-word;
-    word-break: break-all;
+  word-break: break-all;
 }
 
 .dark article {
