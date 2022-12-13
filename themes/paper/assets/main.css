@@ -812,6 +812,8 @@ body {
   font-weight: 600; */
   font-size: 0.875em;
   margin: 0 10px;
+  font-family: 'Fira Code';
+    font-style: italic;
 }
 
 .prose :where(code):not(:where([class~="not-prose"] *))::before {
