@@ -12,7 +12,7 @@ features = ["blog"]
 
 [params]
   color = 'light'
-  avatar = 'https://yinchuanbo.github.io/imgs/logo.svg'
+  avatar = 'https://yinchuanbo.github.io/imgs/logo.jpg'
   name = 'Yin灏'
   bio = '吾生也有涯，其知也无涯！！'
   disableHLJS = true
