@@ -14,11 +14,11 @@
 
 /*定义滑块 内阴影+圆角*/
 ::-webkit-scrollbar-thumb {
-  border-radius: 6px;
+  border-radius: 10px;
   background-color: #0ae;
-  background-image: -webkit-gradient(linear, 0 0, 0 100%,
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,
       color-stop(.5, rgba(255, 255, 255, .2)),
-      color-stop(.5, transparent), to(transparent));
+      color-stop(.5, transparent), to(transparent)); */
 }
 
 /*
@@ -622,7 +622,11 @@ body {
 .prose :where(a):not(:where([class~="not-prose"] *)) {
   color: var(--tw-prose-links);
   text-decoration: underline;
-  font-weight: 500;
+  /* font-weight: 500; */
+}
+
+section a {
+  color: #1313b8!important
 }
 
 .prose :where(strong):not(:where([class~="not-prose"] *)) {
@@ -732,7 +736,7 @@ body {
   color: var(--tw-prose-headings);
   font-weight: 800;
   /* font-size: 2.25em; */
-  font-size: 1.8em;
+  font-size: 26px;
   margin-top: 0;
   margin-bottom: 0.8888889em;
   line-height: 1.1111111;
@@ -746,7 +750,7 @@ body {
 .prose :where(h2):not(:where([class~="not-prose"] *)) {
   color: var(--tw-prose-headings);
   font-weight: 700;
-  font-size: 1.5em;
+  font-size: 22px;
   /* margin-top: 2em; */
   margin-top: 1em;
   margin-bottom: 1em;
@@ -761,7 +765,7 @@ body {
 .prose :where(h3):not(:where([class~="not-prose"] *)) {
   color: var(--tw-prose-headings);
   font-weight: 600;
-  font-size: 1.25em;
+  font-size: 20px;
   margin-top: 1.6em;
   margin-bottom: 0.6em;
   line-height: 1.6;
@@ -807,13 +811,14 @@ body {
 
 .prose :where(code):not(:where([class~="not-prose"] *)) {
   /* color: var(--tw-prose-code); */
-  color: #b72d2d;
+  color: #e83737;
   /* color: #999;
   font-weight: 600; */
   font-size: 0.875em;
   margin: 0 10px;
   font-family: 'Fira Code';
     font-style: italic;
+    /* font-weight: 500; */
 }
 
 .prose :where(code):not(:where([class~="not-prose"] *))::before {
@@ -857,7 +862,7 @@ body {
 .prose :where(pre):not(:where([class~="not-prose"] *)) {
   color: var(--tw-prose-pre-code);
   /* background-color: var(--tw-prose-pre-bg); */
-  background-color: #081b4b !important;
+  background-color: #263238!important;
   overflow-x: auto;
   font-weight: 400;
   font-size: 0.875em;
@@ -870,9 +875,10 @@ body {
   /* padding-left: 1.1428571em; */
   padding-left: 2em;
   padding-right: 2em;
-  border-radius: 16px;
+  border-radius: 10px;
   box-shadow: rgb(0 0 0 / 35%) 0px -50px 36px -28px inset;
 }
+
 
 @media (max-width: 768px) {
   .prose :where(pre):not(:where([class~="not-prose"] *)) {
@@ -1649,7 +1655,7 @@ body {
 }
 
 .pt-20 {
-  padding-top: 5rem;
+  padding-top: 2rem;
 }
 
 .pb-32 {
@@ -1802,7 +1808,7 @@ body {
 }
 
 article {
-  font-size: 1.125rem;
+  font-size: 1.05rem;
   line-height: 1.75rem;
   line-height: 1.9;
   --tw-text-opacity: 1;
