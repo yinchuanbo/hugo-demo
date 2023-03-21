@@ -88,8 +88,9 @@ body {
   /* 1 */
   line-height: inherit;
   /* 2 */
-  /* background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAKElEQVQIW2NkQAP37t37z4gsBhJQUlJihAvCBECKwILIAmBBdAGQIADyYhOflOa3AAAAAABJRU5ErkJggg==) !important; */
-  background: radial-gradient( circle at bottom left,transparent 0,transparent 2em,beige 2em,beige 4em,transparent 4em,transparent 6em,khaki 6em,khaki 8em,transparent 8em,transparent 10em ),radial-gradient( circle at top right,transparent 0,transparent 2em,beige 2em,beige 4em,transparent 4em,transparent 6em,khaki 6em,khaki 8em,transparent 8em,transparent 10em ),radial-gradient( circle at top left,transparent 0,transparent 2em,navajowhite 2em,navajowhite 4em,transparent 4em,transparent 6em,peachpuff 6em,peachpuff 8em,transparent 8em,transparent 10em ),radial-gradient( circle at bottom right,transparent 0,transparent 2em,palegoldenrod 2em,palegoldenrod 4em,transparent 4em,transparent 6em,peachpuff 6em,peachpuff 8em,transparent 8em,transparent 10em ),#ffebcd!important;
+  /* background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%)!important; */
+  /* background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%)!important; */
+  /* background-image: linear-gradient(to right, #F4F4F4 4%, #DFDEDC 99%)!important; */
 }
 
 /*
@@ -817,6 +818,7 @@ section a {
   /* color: #999;
   font-weight: 600; */
   font-size: 0.875em;
+  /* font-size: 1em; */
   margin: 0 10px;
   font-family: 'Hack';
   font-style: italic;
@@ -864,10 +866,12 @@ section a {
 .prose :where(pre):not(:where([class~="not-prose"] *)) {
   color: var(--tw-prose-pre-code);
   /* background-color: var(--tw-prose-pre-bg); */
-  background-color: #263238 !important;
+  background-color: #4c5f60!important;
+  /* background-color: rgb(0 0 0 / 50%)!important; */
   overflow-x: auto;
   font-weight: 400;
-  font-size: 0.875em;
+  /* font-size: 0.875em; */
+  font-size: 0.95em;
   line-height: 1.7142857;
   margin-top: 1.7142857em;
   margin-bottom: 1.7142857em;
@@ -1491,7 +1495,8 @@ section a {
 }
 
 .h-\[5rem\] {
-  height: 5rem;
+  /* height: 5rem; */
+  height: 7rem;
 }
 
 .h-6 {
