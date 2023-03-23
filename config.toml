@@ -14,7 +14,7 @@ features = ["blog"]
   color = 'light'
   avatar = 'https://yinchuanbo.github.io/imgs/logo.jpg'
   name = 'Yin灏'
-  bio = '吾生也有涯，其知也无涯！！'
+  bio = '路曼曼其修远兮，吾将上下而求索。'
   disableHLJS = true
   monoDarkIcon = true
 [markup]
