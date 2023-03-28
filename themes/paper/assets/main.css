@@ -457,7 +457,9 @@ html {
 
 body {
   -webkit-tap-highlight-color: transparent;
-  background: #faf6f1;
+  background-image: radial-gradient(27% 185%, #F9F6F1 0%, #D7D0C5 100%);
+  /* background: #faf6f1;
+   */
 }
 
 .dark body {
