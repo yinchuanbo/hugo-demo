@@ -694,7 +694,8 @@ body {
   color: var(--tw-prose-headings);
   font-weight: 700;
   font-size: 1.5em;
-  margin-top: 2em;
+  /* margin-top: 2em; */
+  margin-top: 1em;
   margin-bottom: 1em;
   line-height: 1.3333333;
 }
@@ -757,6 +758,7 @@ body {
   color: #999;
   font-weight: 600;
   /* font-size: 0.875em; */
+  margin: 0 3px;
 }
 
 /* .prose :where(code):not(:where([class~="not-prose"] *))::before {
