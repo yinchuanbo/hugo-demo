@@ -2,9 +2,9 @@ baseURL = "/"
 title = "灏天阁"
 author = "hao"
 copyright = "Copyright © 2008–2019, Steve Francia and the lee.so; all rights reserved."
-paginate = 3
-languageCode = "zh"
-DefaultContentLanguage = "zh"
+paginate = 4
+languageCode = "en"
+DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 ignoreErrors = ["error-remote-getjson"]
 theme = "paper"
@@ -13,8 +13,8 @@ features = ["blog"]
 [params]
   color = 'light'
   avatar = 'https://yinchuanbo.github.io/imgs/logo.jpg'
-  name = 'Yin灏'
-  bio = '路曼曼其修远兮，吾将上下而求索。'
+  name = 'YinHao'
+  bio = 'Books and friends should be few but good.'
   disableHLJS = true
   monoDarkIcon = true
 [markup]
