@@ -5,7 +5,7 @@ weight = 30
 +++
 <div class="search">
   <input type="text" placeholder="请输入搜索内容..." id="search-key" />
-  <button onclick="search()">
+  <button onclick="search()" type="button">
     <svg t="1583982313567" class="icon" viewBox="0 0 1024 1024"
       version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1271"
       width="200" height="200" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -26,7 +26,7 @@ weight = 30
         128.571429 85.714286 85.714285 128.571428T841.142857
         475.428571q0 125.714286-70.857143 228l196 196q21.142857
         21.142857 21.142857 51.428572z"
-        p-id="1272" fill="#c05b4d"></path>
+        p-id="1272" fill="#121a2a"></path>
     </svg>
   </button>
 </div>
@@ -97,10 +97,10 @@ weight = 30
     document.getElementById("search-tip").style.display = "none";
     tmpl = "<article class=\"post\">" +
       "<header class=\"post-header\">" +
-      "<h1 class=\"post-title\"><a class=\"post-link\" href=\"" + link + "\" target=\"_blank\" style=\"text-decoration:none;font-weight:600\">" + title + "</a></h1>" +
-      // "<div class=\"post-meta\">" +
-      // " <span class=\"post-time\">" + time + "</span>" +
-      // "</div>" +
+      "<a class=\"post-link\" href=\"" + link + "\" target=\"_blank\" style=\"text-decoration:none;\">" + title + "</a>" +
+      "<div class=\"post-meta\">" +
+      " <span class=\"post-time\">" + time + "</span>" +
+      "</div>" +
       " </header>" +
       // "<div class=\"post-content\">" +
       // "<div class=\"post-summary\">" + mark + "</div>" +

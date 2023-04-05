@@ -41,7 +41,7 @@ article section .search {
 article section .search input {
   flex: 1;
   margin-right: 8px;
-  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+  /* box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff; */
   width: 100%;
   box-sizing: border-box;
   transition: all 0.2s ease-in-out;
@@ -54,12 +54,11 @@ article section .search input {
   border-radius: 320px;
   padding: 16px;
   background-color: #EBECF0;
-  text-shadow: 1px 1px 0 #fff;
-  color: #babecc;
+  /* text-shadow: 1px 1px 0 #fff; */
+  color: #121a2a;
 }
 
 article section .search button {
-  color: #AE1100;
   /* box-shadow: -5px -5px 20px #fff, 5px 5px 20px #babecc; */
   transition: all 0.2s ease-in-out;
   cursor: pointer;
@@ -76,16 +75,30 @@ article section .search button {
   margin-left: 10px;
 }
 
-article section .search button:hover {
+/* article section .search button:hover {
   box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
 }
 article section .search button:active {
   box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
-}
+} */
 
 article section .search button svg {
   max-width: 100%;
   max-height: 100%;
+}
+
+.post-link {
+  font-weight: 600!important;
+  font-size: 20px;
+}
+
+.post-meta .post-time {
+  font-size: 14px;
+  color: #ddd;
+}
+
+#result > div ~ div {
+  margin-top: 20px;
 }
 
 html {
@@ -483,7 +496,10 @@ body {
 
 .dark body {
   --tw-bg-opacity: 0.8;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  /* background-color: rgb(0 0 0 / var(--tw-bg-opacity)); */
+  /* background-color: #181d4b; */
+  background-color: #121a2a;
+  /* background-color: #11264f; */
 }
 
 *,
