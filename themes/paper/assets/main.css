@@ -94,7 +94,7 @@ article section .search button svg {
 
 .post-meta .post-time {
   font-size: 14px;
-  color: #ddd;
+  color: var(--tw-prose-body);
 }
 
 #result > div ~ div {

@@ -13,7 +13,7 @@ features = ["blog"]
 [params]
   color = 'light'
   avatar = 'https://yinchuanbo.github.io/imgs/logo.jpg'
-  name = 'YinHao'
+  name = '“Yin灏”'
   bio = 'Books and friends should be few but good.'
   disableHLJS = true
   monoDarkIcon = true
