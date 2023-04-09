@@ -2,7 +2,7 @@ baseURL = "/"
 title = "灏天阁"
 author = "hao"
 copyright = "Copyright © 2008–2019, Steve Francia and the lee.so; all rights reserved."
-paginate = 4
+paginate = 5
 languageCode = "en"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
@@ -13,7 +13,7 @@ features = ["blog"]
 [params]
   color = 'light'
   avatar = 'https://yinchuanbo.github.io/imgs/logo.jpg'
-  name = '“Yin灏”'
+  name = 'Yin灏'
   bio = 'Books and friends should be few but good.'
   disableHLJS = true
   monoDarkIcon = true
