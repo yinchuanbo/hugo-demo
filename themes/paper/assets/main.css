@@ -1,5 +1,4 @@
 @import url('https://cdn.jsdelivr.net/npm/hack-font@3/build/web/hack.css');
-@import url('https://unpkg.com/claymorphism-css/dist/clay.css');
 
 *,
 ::before,
@@ -25,6 +24,12 @@
 
 article:has(.search) header.mb-10 h1 {
   display: none;
+}
+
+main>article>nav {
+  background: var(--clay-background, rgba(0, 0, 0, .5%)) !important;
+  border-radius: var(--clay-border-radius, 32px) !important;
+  box-shadow: var(--clay-shadow-outset, 8px 8px 16px 0 rgba(0, 0, 0, .25)), inset var(--clay-shadow-inset-primary, -8px -8px 16px 0 rgba(0, 0, 0, .25)), inset var(--clay-shadow-inset-secondary, 8px 8px 16px 0 hsla(0, 0%, 100%, .2)) !important;
 }
 
 article section .search {
@@ -58,8 +63,8 @@ article section .search input {
   /* text-shadow: 1px 1px 0 #fff; */
   /* color: #121a2a; */
   background: var(--clay-background, rgba(0, 0, 0, .5%)) !important;
-    border-radius: var(--clay-border-radius, 32px) !important;
-    box-shadow: var(--clay-shadow-outset, 8px 8px 16px 0 rgba(0, 0, 0, .25)), inset var(--clay-shadow-inset-primary, -8px -8px 16px 0 rgba(0, 0, 0, .25)), inset var(--clay-shadow-inset-secondary, 8px 8px 16px 0 hsla(0, 0%, 100%, .2)) !important;
+  border-radius: var(--clay-border-radius, 32px) !important;
+  box-shadow: var(--clay-shadow-outset, 8px 8px 16px 0 rgba(0, 0, 0, .25)), inset var(--clay-shadow-inset-primary, -8px -8px 16px 0 rgba(0, 0, 0, .25)), inset var(--clay-shadow-inset-secondary, 8px 8px 16px 0 hsla(0, 0%, 100%, .2)) !important;
 }
 
 article section .search button {
@@ -1546,7 +1551,7 @@ article header h1 {
   background: var(--clay-background, rgba(0, 0, 0, .5%)) !important;
   border-radius: var(--clay-border-radius, 32px) !important;
   box-shadow: var(--clay-shadow-outset, 8px 8px 16px 0 rgba(0, 0, 0, .25)), inset var(--clay-shadow-inset-primary, -8px -8px 16px 0 rgba(0, 0, 0, .25)), inset var(--clay-shadow-inset-secondary, 8px 8px 16px 0 hsla(0, 0%, 100%, .2)) !important;
-  font-size: .875rem!important;
+  font-size: .875rem !important;
 }
 
 .flex {
@@ -1674,9 +1679,9 @@ article header h1 {
 
 .rounded-full {
   border-radius: 9999px;
-  background: var(--clay-background,rgba(0,0,0,.5%))!important;
-  border-radius: var(--clay-border-radius,32px)!important;
-  box-shadow: var(--clay-shadow-outset,8px 8px 16px 0 rgba(0,0,0,.25)),inset var(--clay-shadow-inset-primary,-8px -8px 16px 0 rgba(0,0,0,.25)),inset var(--clay-shadow-inset-secondary,8px 8px 16px 0 hsla(0,0%,100%,.2))!important;
+  background: var(--clay-background, rgba(0, 0, 0, .5%)) !important;
+  border-radius: var(--clay-border-radius, 32px) !important;
+  box-shadow: var(--clay-shadow-outset, 8px 8px 16px 0 rgba(0, 0, 0, .25)), inset var(--clay-shadow-inset-primary, -8px -8px 16px 0 rgba(0, 0, 0, .25)), inset var(--clay-shadow-inset-secondary, 8px 8px 16px 0 hsla(0, 0%, 100%, .2)) !important;
 }
 
 .rounded-lg {
