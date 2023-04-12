@@ -12,9 +12,9 @@ features = ["blog"]
 
 [params]
   color = 'light'
-  avatar = 'https://yinchuanbo.github.io/imgs/logo.png'
+  avatar = '/imgs/logo.jpg'
   name = 'Yin灏'
-  bio = 'Books and friends should be few but good.'
+  bio = '每天进步一点点，成功离你就不远了。'
   disableHLJS = true
   monoDarkIcon = true
 [markup]
