@@ -8,13 +8,6 @@
       href="{{ `` | absURL }}"
       >{{ site.Title }}</a
     >
-    <img
-      src="/imgs/yanhua.png"
-      alt=""
-      width="32"
-      height="32"
-      style="display: block; margin-top: -4px; margin-left: 5px"
-    />
     <!-- <a
       class="btn-dark ml-6 h-6 w-6 shrink-0 cursor-pointer {{ if site.Params.monoDarkIcon }}[background:url(./theme.svg)_left_center/cover_no-repeat] dark:invert{{ else }}[background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)]{{ end }} dark:[background-position:right]"
     ></a> -->
@@ -73,7 +66,7 @@
     <nav class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-6">
       {{ range . }}
       <a
-        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        class="btn block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
         href="{{ .URL }}"
         >{{ .Name }}</a
       >
