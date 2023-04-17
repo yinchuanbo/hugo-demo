@@ -885,7 +885,7 @@ article header h1 {
   margin: 0 3px;
   font-family: hack;
   /* color: var(--tw-prose-code); */
-  color: #9adcff;
+  color: #93c6e7;
 }
 
 /* .prose :where(code):not(:where([class~="not-prose"] *))::before {
