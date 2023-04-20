@@ -1,5 +1,20 @@
 @import url('https://cdn.jsdelivr.net/npm/hack-font@3/build/web/hack.css');
 
+/* 宽度和高度 */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* 滚动条背景颜色 */
+::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #7286d3;
+}
+
 *,
 ::before,
 ::after {
@@ -511,11 +526,7 @@ body {
 }
 
 .dark body {
-  --tw-bg-opacity: 0.9;
-  /* background-color: rgb(0 0 0 / var(--tw-bg-opacity)); */
-  background-color: #111d5e;
-  /* background-image: url('https://www.transparenttextures.com/patterns/basketball.png'); */
-  background-image: url('https://www.transparenttextures.com/patterns/large-leather.png');
+  background: #111d5e url('/imgs/large-leather.png');
 }
 
 *,
@@ -886,7 +897,7 @@ article header h1 {
   margin: 0 3px;
   font-family: hack;
   /* color: var(--tw-prose-code); */
-  color: #93c6e7;
+  color: rgba(255, 0, 0, 70%);
 }
 
 /* .prose :where(code):not(:where([class~="not-prose"] *))::before {
@@ -945,8 +956,8 @@ article header h1 {
   /* box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
   background: var(--clay-background, rgba(0, 0, 0, 0.5%)) !important;
   background-color: var(--tw-prose-pre-bg);
-  border-radius: 10px;
-  border-radius: var(--clay-border-radius, 32px) !important;
+  /* border-radius: 10px;
+  border-radius: var(--clay-border-radius, 32px) !important; */
   box-shadow: var(--clay-shadow-outset, 8px 8px 16px 0 rgba(0, 0, 0, 25%)),
     inset var(--clay-shadow-inset-primary, -8px -8px 16px 0 rgba(0, 0, 0, 25%)),
     inset var(--clay-shadow-inset-secondary, 8px 8px 16px 0 hsla(0deg, 0%, 100%, 20%)) !important;
@@ -1770,6 +1781,10 @@ article header h1 {
 
 .pb-32 {
   padding-bottom: 8rem;
+}
+
+.pb-custom {
+  padding-bottom: 3rem;
 }
 
 .pb-1 {
