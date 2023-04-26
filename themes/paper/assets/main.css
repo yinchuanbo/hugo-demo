@@ -889,7 +889,7 @@ article header h1 {
   /* font-weight: 600; */
   /* font-size: 0.875em; */
   margin: 0 3px;
-  font-family: myFont;
+  font-family: hack;
   /* color: var(--tw-prose-code); */
   color: #95bdff;
 }
@@ -941,7 +941,7 @@ article header h1 {
   margin-bottom: 1.7142857em;
   overflow-x: auto;
   /* font-size: 0.875em; */
-  font-size: 1em;
+  font-size: 0.95em;
   font-weight: 500;
   line-height: 1.7142857;
   color: var(--tw-prose-pre-code);
