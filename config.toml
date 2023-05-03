@@ -14,7 +14,7 @@ features = ["blog"]
   color = 'light'
   avatar = '/imgs/logo.jpg'
   name = 'Yin灏'
-  bio = 'There is no substitute for hard work.'
+  bio = '如果时间可以倒流，如果时间可以倒流...'
   disableHLJS = true
   monoDarkIcon = true
 [markup]
