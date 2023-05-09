@@ -516,7 +516,7 @@ body {
 }
 
 .dark body {
-  background-color: #1363DF;
+  background-color: #61764B;
 }
 
 *,
@@ -942,7 +942,7 @@ pre code {
   margin-bottom: 1.7142857em;
   overflow-x: auto;
   /* font-size: 0.875em; */
-  font-size: 0.9em;
+  font-size: 0.95em;
   font-weight: 500;
   line-height: 1.7142857;
   color: var(--tw-prose-pre-code);
