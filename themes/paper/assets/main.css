@@ -1,9 +1,9 @@
 @import url('https://cdn.jsdelivr.net/npm/hack-font@3/build/web/hack.css');
 
-/* @font-face {
+@font-face {
   font-family: myFont;
   src: url('/fonts/myFont.ttf') format('truetype');
-} */
+}
 
 *,
 ::before,
@@ -124,7 +124,7 @@ article section .search button svg {
 
 html {
   /* 3 */
-  font-family: hack, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+  font-family: myFont, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
     'Segoe UI Symbol', 'Noto Color Emoji';
   line-height: 1.5;
@@ -212,7 +212,7 @@ code,
 kbd,
 samp,
 pre {
-  font-family: hack, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono',
+  font-family: myFont, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono',
     'Courier New', monospace;
   /* 1 */
   font-size: 1em;
@@ -516,8 +516,7 @@ body {
 }
 
 .dark body {
-  /* background-color: #43AB92; */
-  background-image: linear-gradient(90deg, #2870EA 10.79%, #1B4AEF 87.08%);
+  background-color: #30475E;
 }
 
 *,
