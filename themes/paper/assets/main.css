@@ -516,7 +516,8 @@ body {
 }
 
 .dark body {
-  background-color: #5D9C59;
+  /* background-color: #43AB92; */
+  background-image: linear-gradient(90deg, #2870EA 10.79%, #1B4AEF 87.08%);
 }
 
 *,
