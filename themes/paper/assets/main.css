@@ -1,9 +1,5 @@
 @import url('https://cdn.jsdelivr.net/npm/hack-font@3/build/web/hack.css');
-
-@font-face {
-  font-family: myFont;
-  src: url('/fonts/myFont.ttf') format('truetype');
-}
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
 
 *,
 ::before,
@@ -124,7 +120,7 @@ article section .search button svg {
 
 html {
   /* 3 */
-  font-family: myFont, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+  font-family: 'Fira Code', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
     'Segoe UI Symbol', 'Noto Color Emoji';
   line-height: 1.5;
@@ -212,7 +208,7 @@ code,
 kbd,
 samp,
 pre {
-  font-family: myFont, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono',
+  font-family: 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono',
     'Courier New', monospace;
   /* 1 */
   font-size: 1em;
@@ -516,7 +512,7 @@ body {
 }
 
 .dark body {
-  background-color: #30475E;
+  background-color: #1C6DD0;
 }
 
 *,
@@ -891,7 +887,7 @@ article header h1 {
 }
 
 pre code {
-  font-family: hack;
+  font-family: 'Fira Code';
 }
 
 
