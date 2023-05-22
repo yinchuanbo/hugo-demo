@@ -748,12 +748,12 @@ body {
 .prose :where(ol > li):not(:where([class~='not-prose'] *))::marker {
   font-weight: 400;
   /* color: var(--tw-prose-counters); */
-  color: #737373;
+  color: #ebecf0;
 }
 
 .prose :where(ul > li):not(:where([class~='not-prose'] *))::marker {
   /* color: var(--tw-prose-bullets); */
-  color: #737373;
+  color: #ebecf0;
 }
 
 .prose :where(hr):not(:where([class~='not-prose'] *)) {
