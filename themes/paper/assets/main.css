@@ -27,6 +27,10 @@ article:has(.search) header.mb-10 h1 {
   display: none;
 }
 
+span[style="color:#75715e"] {
+  color: #aaa!important;
+}
+
 main > article > nav {
   border-radius: 32px!important;
   background: var(--clay-background, rgba(0, 0, 0, 0.5%)) !important;
