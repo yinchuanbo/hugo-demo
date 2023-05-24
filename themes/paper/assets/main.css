@@ -30,6 +30,10 @@ article:has(.search) header.mb-10 h1 {
 span[style="color:#75715e"] {
   color: #aaa!important;
 }
+span[style="color:#960050;background-color:#1e0010"] {
+  background-color: transparent!important;
+  color: #fff!important;
+}
 
 main > article > nav {
   border-radius: 32px!important;
@@ -889,7 +893,7 @@ article header h1 {
 
 .prose :where(code):not(:where([class~='not-prose'] *)) {
   margin: 0 3px;
-  color: #C6D57E;
+  color: #7DB9B6;
 }
 
 pre code {
