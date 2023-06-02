@@ -1,6 +1,25 @@
 @import url('https://cdn.jsdelivr.net/npm/hack-font@3/build/web/hack.css');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
 
+html {
+  scrollbar-color: #6969dd #e0e0e0;
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+  width: 14px;
+  height: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  border-radius: 14px;
+}
+
 *,
 ::before,
 ::after {
@@ -28,8 +47,10 @@ article:has(.search) header.mb-10 h1 {
 }
 
 span[style="color:#75715e"] {
-  color: #aaa!important;
+  color: #d4d4d4!important;
+  font-size: 16px;
 }
+
 span[style="color:#960050;background-color:#1e0010"] {
   background-color: transparent!important;
   color: #fff!important;
@@ -757,12 +778,12 @@ body {
 .prose :where(ol > li):not(:where([class~='not-prose'] *))::marker {
   font-weight: 400;
   /* color: var(--tw-prose-counters); */
-  color: #ebecf0;
+  color: #d4d4d4;
 }
 
 .prose :where(ul > li):not(:where([class~='not-prose'] *))::marker {
   /* color: var(--tw-prose-bullets); */
-  color: #ebecf0;
+  color: #d4d4d4;
 }
 
 .prose :where(hr):not(:where([class~='not-prose'] *)) {
@@ -780,7 +801,7 @@ body {
   font-weight: 500;
   color: var(--tw-prose-quotes);
   quotes: '\201C''\201D''\2018''\2019';
-  border-left-color: #999;
+  border-left-color: #d4d4d4;
   border-left-width: 0.25rem;
 }
 
