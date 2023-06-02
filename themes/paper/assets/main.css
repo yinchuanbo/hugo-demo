@@ -520,8 +520,8 @@ body {
 }
 
 .dark body {
-  background-color: #24315e;
-  background-image: url("/imgs/basketball.png");
+  background-color: #51AF5B;
+  /* background-image: url("/imgs/basketball.png"); */
 }
 
 *,
