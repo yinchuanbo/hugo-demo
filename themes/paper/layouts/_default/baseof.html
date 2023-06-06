@@ -45,6 +45,36 @@
       {{ block "main" . }}{{ end }}
     </main>
 
+    <div class="book__list">
+      <h2 class="book__list_title">- Book Lists -</h2>
+      <ul>
+        <li>1. Node.js / Python</li>
+        <li>2. Express / Koa2 / Egg</li>
+        <li>3. Node爬虫 / chrome扩展</li>
+        <li>4. Vue3.3 / TypeScript5.0</li>
+        <li>5. React1.8</li>
+        <li>6. Angular14.0.5</li>
+        <li>7. MySQL / MongDB</li>
+        <li>8. Uniapp / Taro</li>
+        <li>9. 异常监控并上报</li>
+        <li>10. 自动化测试 / 单元测试</li>
+        <li>11. Vite / Webpack / Babel</li>
+        <li>12. 数据可视化Echats / 大屏</li>
+        <li>13. 工程化 / 自动化部署</li>
+        <li>14. Scss / TailwindCss</li>
+        <li>15. ElementUI / Antd Design</li>
+      </ul>
+      <!-- <div class="book__list_block"></div> -->
+    </div>
+
     {{ partial "footer.html" . }}
+
+    <!-- <script>
+      if(location.pathname === '/') {
+        document.querySelector('.book__list').classList.remove('hidden')
+      } else {
+        document.querySelector('.book__list').classList.add('hidden')
+      }
+    </script> -->
   </body>
 </html>

@@ -911,6 +911,73 @@ article header h1 {
   text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbbbbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaaaaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
 }
 
+.book__list {
+  position: fixed;
+  top: 200px;
+  left: -305px;
+  width: 305px;
+  height: 570px;
+  border-radius: 32px;
+  box-shadow: var(--clay-shadow-outset,8px 8px 16px 0 rgba(0,0,0,25%)),inset var(--clay-shadow-inset-primary,-8px -8px 16px 0 rgba(0,0,0,25%)),inset var(--clay-shadow-inset-secondary,8px 8px 16px 0 hsla(0deg,0%,100%,20%))!important;
+  padding: 20px 0;
+  box-sizing: border-box;
+  transition: all 0.5s;
+}
+
+.hidden {
+  display: none;
+}
+
+.book__list .book__list_title {
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.book__list ul {
+  width: 100%;
+}
+
+.book__list ul li {
+  width: 100%;
+  text-indent: 20px;
+}
+
+.book__list ul li:hover {
+  color: #a6e22e;
+  cursor: default;
+}
+
+.book__list ul li + li {
+  margin-top: 10px;
+}
+
+.book__list::after {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB0PSIxNjg2MDQ2Mjk3Njg1IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjY0MzUiIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4Ij48cGF0aCBkPSJNODQxLjE1OTExMSA2MDguNDgzNTU2TDI1OS40MTMzMzMgOTcyLjExNzMzM0ExMTMuNzc3Nzc4IDExMy43Nzc3NzggMCAwIDEgODUuMzMzMzMzIDg3NS42MzM3NzhWMTQ4LjM2NjIyMkExMTMuNzc3Nzc4IDExMy43Nzc3NzggMCAwIDEgMjU5LjQxMzMzMyA1MS44ODI2NjdsNTgxLjc0NTc3OCAzNjMuNjMzNzc3YTExMy43Nzc3NzggMTEzLjc3Nzc3OCAwIDAgMSAwIDE5Mi45NjcxMTJ6IiBmaWxsPSIjMDA1NTU1IiBwLWlkPSI2NDM2Ij48L3BhdGg+PC9zdmc+');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.book__list:hover {
+  left: 10px;
+  transition: all 0.5s;
+}
+
+@media screen and (max-width: 1485px) {
+  .book__list {
+    display: none;
+  }
+}
 
 .prose :where(code):not(:where([class~='not-prose'] *)) {
   margin: 0 3px;
