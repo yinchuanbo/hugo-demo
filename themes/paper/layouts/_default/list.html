@@ -19,7 +19,7 @@
 
 {{ $avatar_url := $.Scratch.Get "avatar_url" }}<!---->
 {{ if or $avatar_url site.Params.name }}
-<div class="-mt-4 mb-20 flex items-start">
+<div class="-mt-4 mb-20 flex items-start" style="margin: 0;margin-bottom: 2.5rem;">
   {{ if $avatar_url }}
   <div
     class="mr-5 shrink-0 rounded-full border-[0.5px] border-black/10 bg-white/50 p-3 shadow-xl dark:bg-white/80"
@@ -52,7 +52,7 @@
 
 <!-- Main Nav -->
 {{ if gt $paginator.TotalPages 1 }}
-<nav class="mt-24 flex">
+<nav class="mt-24 flex" style="margin-top: 4rem;">
   {{ if $paginator.HasPrev }}
   <a class="btn" href="{{ $paginator.Prev.URL }}">← {{ i18n "prev_page" }}</a>
   {{ end }}<!---->
