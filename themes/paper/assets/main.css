@@ -539,7 +539,9 @@ body {
 }
 
 .dark body {
-  background-color: #064420;
+  background-color: #342ead;
+background-image: url("https://www.transparenttextures.com/patterns/clean-textile.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 *,
