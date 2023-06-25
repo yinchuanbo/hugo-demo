@@ -539,7 +539,8 @@ body {
 }
 
 .dark body {
-  background-color: #0e7071;
+  background-color: #006466;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAWCAYAAADAQbwGAAAAk0lEQVQ4y83TsQmAMBRF0TuAWziOlTOkt0qVRexTOUAaB3AvC78IovLyETTwmgQOFl6AAAxABoot211wjAGYgeW0GYgecLzA9mUPWB7A8gswPYDJA7Y3X1nsrRrs2E4EJlu0u84DBqAHGo7T2F3wgm/uW1BJtApTEpVBNVEZVIv6DlQTlUE1URlUE636D5VEf57eCqJrxu8yn+EZAAAAAElFTkSuQmCC");
 }
 
 *,
