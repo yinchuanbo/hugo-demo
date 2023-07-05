@@ -538,17 +538,14 @@ body {
   background: var(--bg);
 }
 
-/* 
-https://www.transparenttextures.com/patterns/tex2res5.png
-https://www.transparenttextures.com/patterns/retina-dust.png
-https://www.transparenttextures.com/patterns/natural-paper.png
-https://www.transparenttextures.com/patterns/low-contrast-linen.png
-https://www.transparenttextures.com/patterns/light-sketch.png
-https://www.transparenttextures.com/patterns/hixs-evolution.png
+/*
+https://www.transparenttextures.com/patterns/cartographer.png
+https://www.transparenttextures.com/patterns/ravenna.png
+https://www.transparenttextures.com/patterns/large-leather.png
 */
 .dark body {
   background-color: #008000;
-  background-image: url("https://www.transparenttextures.com/patterns/hixs-evolution.png");
+  background-image: url("https://www.transparenttextures.com/patterns/ravenna.png");
 }
 
 *,
