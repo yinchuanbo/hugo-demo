@@ -781,12 +781,12 @@ https://www.transparenttextures.com/patterns/large-leather.png
 .prose :where(ol > li):not(:where([class~='not-prose'] *))::marker {
   font-weight: 400;
   /* color: var(--tw-prose-counters); */
-  color: #999;
+  color: #e8e8e8
 }
 
 .prose :where(ul > li):not(:where([class~='not-prose'] *))::marker {
   /* color: var(--tw-prose-bullets); */
-  color: #999;
+  color: #e8e8e8
 }
 
 .prose :where(hr):not(:where([class~='not-prose'] *)) {
