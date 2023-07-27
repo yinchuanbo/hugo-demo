@@ -551,8 +551,9 @@ https://www.transparenttextures.com/patterns/ravenna.png
 https://www.transparenttextures.com/patterns/large-leather.png
 */
 .dark body {
-  background-color: #008000;
-  background-image: url("https://www.transparenttextures.com/patterns/ravenna.png");
+  /* background-color: #379237; */
+  background-color: #00238c;
+background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAWCAQAAAAccsYGAAAC6UlEQVR4AWWVoW/jShDGf2SRyRKjkBATo5CSIJMjRSHlD8S9tlfpIp0sRdFJRSYhr6QkxCQmIUUmJUWHQ4JCSu7PCHhzo08rv6tGW7X75Tf77exMCkeLOVMC0VcEXmi0P+fIjgx8QWDgTMVcegFOACOOncWRKwJo5XwxsMP2PWVOEDixmDPg+66XTkxkqRLnbjbP8ZlnCA7ml8CWhdyE9ZRgwSVcIGtzKk4cExeVFIJprXPsKB6rNm/H16ApKE1pYDX7URLI5TRbzR4rIhuM+6P9QPfIsKTGzehYDl8f2ty3Z37ixHHu6vpQv9w2t5ABIZ0X9tndP8u3evf1we/noUOzn5P7xfKXn0C86DRIrgqvEmlNR38VejbEkH6fyFRyGSVNwaUsqVGePAjIt9TkM+3r5MA1Lb8snliQ6+NB+g2tP9qGUv5dcyPXbI1641/voCkSA7Dgld8mN5w5pIS5gxWdqR+mNDwIC0D0JEPiXona9zrkrDgyeKt09NRyU5oGjWFnejpTT9w4JkM0Y46Vqq/Sv3tnaoo4qE2Cx4EPw+bjKUoV/4uTf/XfgTOaEotmVO/IYGEupXejh+ETN/ERuWARKF2UGwHRBzSjoqFKbmZE16JqOuL22R6CSk62z1jRy83CTmMcbDnJTWPNNarp/7n1dI0FrPX+36++Q0f3HO9v1lONg9f7Er59ofRHK5qizX0XP5g2d65nt8/ub0zL1b4+nDa3t5vlYEO7svNGXlzl23Xd191jJS2mByn22Z+BXg53tbkOIjQJAdKI+U+NJeljQcmccEe5WHz5E2nQlUICwZOFVFUERXANdaLv+VJiJ9LIvLKhIqCLqiAVrTf1C+Wn74cZW44ceOLq7+8H0zYMcLbYUhJGKWf0/ObDO7RnASA154pXjrwnTgVU8x2c83ZYuIsgtKA28MyJyuLESj2Jl2plWMNCXKm3cMeJU//5gBElvvFBn/5HPbkWFAPvPuviCBTpXd5x7j9xcCijPNryDQAAAABJRU5ErkJggg==");
 }
 
 *,
