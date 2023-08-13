@@ -51,10 +51,9 @@ article:has(.search) header.mb-10 h1 {
   display: none;
 }
 
-span[style="color:#75715e"] {
-  color: #aaa!important;
-  /* font-size: 16px; */
-}
+/* span[style="color:#75715e"] {
+  color: #8E05C2!important;
+} */
 
 span[style="color:#960050;background-color:#1e0010"] {
   background-color: transparent!important;
@@ -547,7 +546,7 @@ body {
 
 .dark body {
   /* background-color: #338c00; */
-  background-color: #54B435;
+  background-color: #4E9F3D;
 }
 
 *,
@@ -1894,7 +1893,8 @@ pre code {
 }
 
 .pb-custom {
-  padding-bottom: 3rem;
+  /* padding-bottom: 3rem; */
+  padding-bottom: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;

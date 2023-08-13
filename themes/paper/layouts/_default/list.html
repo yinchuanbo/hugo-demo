@@ -52,7 +52,7 @@
 
 <!-- Main Nav -->
 {{ if gt $paginator.TotalPages 1 }}
-<nav class="flex" style="margin-top: 2rem;">
+<nav class="flex" style="margin-top: 3rem;">
 <!-- <nav class="mt-24 flex" style="margin-top: 3rem;"> -->
   {{ if $paginator.HasPrev }}
   <a class="btn" href="{{ $paginator.Prev.URL }}">← {{ i18n "prev_page" }}</a>
