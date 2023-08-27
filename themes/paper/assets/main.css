@@ -541,12 +541,7 @@ html {
 
 body {
   -webkit-tap-highlight-color: transparent;
-  background: var(--bg);
-}
-
-.dark body {
-  /* background-color: #338c00; */
-  background-color: #4E9F3D;
+  background-color: rgb(96, 108, 93);
 }
 
 *,
@@ -1885,7 +1880,7 @@ pre code {
 
 .pt-20 {
   /* padding-top: 5rem; */
-  padding-top: 3rem;
+  /* padding-top: 3rem; */
 }
 
 .pb-32 {
@@ -2058,12 +2053,13 @@ pre code {
 }
 
 article {
-  font-size: 1.125rem;
+  font-size: 1.1rem;
   line-height: 1.75rem;
   line-height: 1.9;
   --tw-text-opacity: 1;
 
   color: rgb(0 0 0 / var(--tw-text-opacity));
+  padding-top: 3em;
 }
 
 .dark article {
